@@ -12,4 +12,6 @@
 */
 
 Route::get('/', 'HomeController@getHomepage');
+Route::get('/forms/{type}/{year}/{step}', 'FormController@getStep');
+Route::post('/forms/{type}/{year}/{step}', 'FormController@postStep');
 

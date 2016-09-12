@@ -14,6 +14,6 @@ class HomeController extends Controller
 		$year = Carbon::now()->year;
 		$data['year'] = $year;
 
-    return view('welcome', $data);
+    	return view('welcome', $data);
 	}
 }

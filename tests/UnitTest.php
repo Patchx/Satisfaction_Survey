@@ -4,14 +4,19 @@
 // use Illuminate\Foundation\Testing\DatabaseMigrations;
 // use Illuminate\Foundation\Testing\DatabaseTransactions;
 
+// use Carbon\Carbon;
+
 // class ExampleTest extends TestCase
 // {
+// 	public function setUp()
+// 	{
+// 		$this->year = Carbon::now()->year;
+// 	}
+
 //     /**
-//      * A basic functional test example.
-//      *
-//      * @return void
+//      * @test
 //      */
-//     public function testBasicExample()
+//     public function BasicExample()
 //     {
 //         $this->visit('/')
 //              ->see('Laravel 5');

@@ -11,9 +11,11 @@ class SmokeTest extends TestCase
     /**
      * @test
      */
-    public function allViewsHaveResponseCodeOk()
+    public function all_views_have_response_code_ok()
     {
         $this->visit('/')
+             ->assertResponseOk();
+        $this->visit('/forms/es-survey/2016/1')
              ->assertResponseOk();
     }
 }

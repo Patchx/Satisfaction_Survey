@@ -5,7 +5,7 @@
 <div class="jumbotron">
   <h1>{{$year}} Employee Satisfaction Survey</h1>
   <p class="lead">Please follow the links below to complete your {{$year}} Employee Satisfaction Survey</p>
-  <p><a class="btn btn-lg btn-success" href="#" role="button">Get Started</a></p>
+  <p><a class="btn btn-lg btn-success" href="/forms/es-survey/{{$year}}/1" role="button">Get Started</a></p>
 </div>
 
 <div class="row marketing">
